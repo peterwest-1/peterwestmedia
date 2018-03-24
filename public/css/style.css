@@ -1,0 +1,74 @@
+body {
+    /* font: 400 15px Lato, sans-serif; */
+    /* font-family: 'Abel', sans-serif; */
+    font-family: 'Playfair Display SC', serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+hr {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.container{
+    padding: 0px;
+}
+
+.jumbotron {
+    background-color: #ffffff; /* Orange */
+    color: #000000;
+    padding: 100px 25px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.list-item {
+  color: #000000;
+  font-family: 'Playfair Display SC', serif;
+}
+
+#contact {
+  padding: 60px 0px;
+}
+
+#instagram {
+  margin-bottom: 80px;
+}
+
+.icon{
+  height:30px;
+  width: 30px;
+
+}
+
+.head-img{
+  width: 10%;
+  height: 10%;
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #f3f3f3;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+    color: #000000;
+}
+
+footer {
+  font-size: 20px;
+  background-color: #ffffff;
+}
+
+footer .glyphicon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+}

@@ -1,0 +1,26 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Abel', sans-serif; */
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #000000 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ffffff !important;
+    background-color: #000 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #ffffff !important;
+}

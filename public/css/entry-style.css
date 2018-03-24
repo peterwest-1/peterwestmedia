@@ -1,0 +1,39 @@
+
+.jumbotron {
+    background: transparent;
+    color: #ffffff;
+    padding: 100px 25px;
+    font-weight: 600;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+
+.person {
+    border: 5px solid;
+    border-color: #ffffff;
+    margin-bottom: 25px;
+    width: 9%;
+    height: 9%;
+    opacity: 0.8;
+}
+
+.count{
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 200px;
+}
