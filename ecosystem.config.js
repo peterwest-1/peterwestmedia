@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-18-196-106-178.eu-central-1.compute.amazonaws.com',
+      host: 'ec2-18-196-122-44.eu-central-1.compute.amazonaws.com',
       key: '~/.ssh/aws-ubuntu-linux.pem',
       ref: 'origin/master',
       repo: 'https://github.com/peterwest-1/peterwestmedia',
