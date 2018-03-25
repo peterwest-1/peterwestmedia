@@ -21,8 +21,8 @@ deploy:
   key: latest.zip
   bundle_type: zip
   application: peterwestmedia
-  deployment_group: CodeDeployDeploymentGroupNameHERE
-  region: serverRegionHERE
+  deployment_group: Production
+  region: eu-central-1
   on: *2
 script:
   - zip -r latest * >/dev/null
