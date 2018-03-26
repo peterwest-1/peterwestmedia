@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -52,7 +52,7 @@
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
@@ -1906,7 +1906,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color: #ffffff;
   padding-left: 10px;
   border-left: 4px solid #6434fe;
 }
@@ -2351,7 +2351,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-area {
-  background-color: #f9f9ff;
+  background-color: transparent;
 }
 
 @media (max-width: 1024px) {
