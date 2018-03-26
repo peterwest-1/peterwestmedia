@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/peterwest-1/peterwestmedia#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "materialize-css": "^1.0.0-beta"
   },
   "devDependencies": {
     "pm2": "^2.10.1"
