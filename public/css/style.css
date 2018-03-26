@@ -3,7 +3,6 @@ body {
     /* font-family: 'Abel', sans-serif; */
     font-family: 'Playfair Display SC', serif;
     line-height: 1.8;
-    color: #818181;
 }
 
 hr {
@@ -11,12 +10,13 @@ hr {
   margin-bottom: 0em;
 }
 
+
 .container{
     padding: 0px;
 }
 
 .jumbotron {
-    background-color: #ffffff; /* Orange */
+    background-color: #fff; /* Orange */
     color: #000000;
     padding: 100px 25px;
     font-family: 'Playfair Display SC', serif;
@@ -25,14 +25,6 @@ hr {
 .list-item {
   color: #000000;
   font-family: 'Playfair Display SC', serif;
-}
-
-#contact {
-  padding: 60px 0px;
-}
-
-#instagram {
-  margin-bottom: 80px;
 }
 
 .icon{
