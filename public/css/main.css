@@ -3,6 +3,14 @@
 /* Tablet Layout: 768px */
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
+
+.img-circle {
+   border-radius: 50%;
+   max-width: 100%;
+   height: auto;
+
+}
+
 /* =================================== */
 /*  Basic Style
 /* =================================== */
