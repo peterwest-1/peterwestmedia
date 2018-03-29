@@ -8,8 +8,18 @@
    border-radius: 50%;
    max-width: 100%;
    height: auto;
-
 }
+
+.warranty-banner {
+  background-color: #2A2A2A;
+  text-align: center;
+}
+
+.warranty-banner .height {
+    /* height: 100vh; */
+    height: 50vh;
+}
+
 
 /* =================================== */
 /*  Basic Style
