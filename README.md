@@ -12,3 +12,7 @@ Express based web application for http://peterwestmedia.com deployed on AWS EC2
 ### [David Thai](https://medium.com/@itsdavidthai)
 
 * [Comprehensive AWS EC2 Deployment with TravisCI Guide](https://medium.com/@itsdavidthai/comprehensive-aws-ec2-deployment-with-travisci-guide-7cafa9c754fc)
+
+### [Victor Ofoegbu](https://medium.freecodecamp.org/@vick_onrails?source=post_header_lockup)
+
+* [Getting off the ground with Express.js](https://medium.freecodecamp.org/getting-off-the-ground-with-expressjs-89ada7ef4e59)
