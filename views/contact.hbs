@@ -1,0 +1,82 @@
+
+<head>
+  <link href="06-contact/css/styles.css" rel="stylesheet">
+  <link href="06-contact/css/responsive.css" rel="stylesheet">
+</head>
+
+
+	<div class="main-slider" style="background-image: url(images/slider-1-1920x1080.jpg);">
+		<div class="display-table center-text">
+			<div class="display-table-cell">
+				<div class="slider-content">
+
+					<h5 class="pre-heading">Get in touch</h5>
+					<h1><b>Contact</b></h1>
+
+				</div><!-- slider-content-->
+			</div><!--display-table-cell-->
+		</div><!-- display-table-->
+	</div><!-- main-slider -->
+
+
+	<section class="contact-section section">
+		<div class="container">
+			<div class="row">
+
+
+					<div class="contact-form">
+						<form method="post">
+							<div class="row">
+
+								<div class="col-sm-6">
+									<input class="margin-b-30" type="text" placeholder="Your name"/>
+								</div><!-- col-sm-6 -->
+
+								<div class="col-sm-6">
+									<input class="margin-b-30" type="text" placeholder="Your email"/>
+								</div><!-- col-sm-6 -->
+
+								<div class="col-sm-12">
+									<input class="margin-b-30" type="text" placeholder="Subject"/>
+								</div><!-- col-sm-12 -->
+
+								<div class="col-sm-12">
+									<textarea class="margin-b-30" rows="6" placeholder="Message"></textarea>
+								</div><!-- col-sm-12 -->
+
+								<div class="col-sm-12">
+									<button class="btn btn-border margin-b-30" type="submit" name="submit"><b>SEND IT</b>
+										<i class="ion-chevron-right"></i><i class="ion-chevron-right"></i></button>
+								</div><!-- col-sm-12 -->
+
+							</div><!-- row -->
+						</form>
+					</div><!-- contact-form -->
+
+
+				</div><!-- col-sm-4 -->
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- contact-section -->
+
+
+	<section class="map-section">
+		<div class="container">
+			<div id="map" style="height:500px;width: 100%"></div>
+			<script>
+				  function initMap() {
+					var uluru = {lat: 56.946285, lng: 24.105078};
+					var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 4,
+						center: uluru
+					});
+
+				  }
+			</script>
+			<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8Nkl4q13z00Fid3Vh8eOp4mqVlgfcXLA&callback=initMap">
+			</script>
+
+		</div><!-- container -->
+	</section><!-- map-section -->
