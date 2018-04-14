@@ -1,5 +1,28 @@
-const express = require('express')
-const app = express()
+//Entry point for Express server
 
-app.use(express.static('public'))
-app.listen(3000, () => console.log('Server running on port 3000'))
+const express = require('express');
+const hbs = require('express-handlebars').create({defaultLayout:'main.hbs'});
+const compression = require('compression');
+const helmet = require('helmet');
+
+const app = express();
+const router = express.Router();
+
+
+app.use(compression());
+app.use(helmet());
+app.use(express.static(__dirname +'/assets/'));
+
+//setting our app engine to handlebars
+app.engine('hbs', hbs.engine);
+app.set('view engine', 'hbs');
+
+app.get('/',(request,response)=>{
+  response.render('home',{title: 'Home | Peter West Media'});
+});
+
+app.get('/about',(request,response)=>{
+  response.render('about',{title: 'About | Peter West Media'});
+});
+
+app.listen(3000,()=>console.log('Express server started at port 3000'));

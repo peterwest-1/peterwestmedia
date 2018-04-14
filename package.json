@@ -1,10 +1,11 @@
 {
   "name": "peterwestmedia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Website for peterwestmedia.com",
   "main": "server.js",
   "scripts": {
     "restart": "pm2 startOrRestart ecosystem.config.js",
+    "dev": "nodemon ./server.js",
     "deploy": "pm2 deploy ecosystem.config.js production"
   },
   "repository": {
@@ -18,10 +19,14 @@
   },
   "homepage": "https://github.com/peterwest-1/peterwestmedia#readme",
   "dependencies": {
+    "compression": "^1.7.2",
     "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "helmet": "^3.12.0",
     "materialize-css": "^1.0.0-beta"
   },
   "devDependencies": {
+    "nodemon": "^1.17.3",
     "pm2": "^2.10.1"
   }
 }
