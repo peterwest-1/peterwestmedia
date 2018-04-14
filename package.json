@@ -26,6 +26,7 @@
     "materialize-css": "^1.0.0-beta"
   },
   "devDependencies": {
+    "grunt": "^1.0.2",
     "nodemon": "^1.17.3",
     "pm2": "^2.10.1"
   }
