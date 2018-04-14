@@ -18,11 +18,11 @@ app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
 
 app.get('/',(request,response)=>{
-  response.render('home',{title: 'Home | PWM'});
+  response.render('home',{title: 'Home | Peter West Media'});
 });
 
 app.get('/about',(request,response)=>{
-  response.render('about',{title: 'About | PWM'});
+  response.render('about',{title: 'About | Peter West Media'});
 });
 
 app.listen(3000,()=>console.log('Express server started at port 3000'));
