@@ -1,0 +1,36 @@
+/* ---------------------------------
+4. SLIDER
+--------------------------------- */
+
+.main-slider{ height: 500px; position: relative; z-index: 1; background-size: cover; color: #fff; }
+
+.main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; opacity: .8;
+	z-index: -1; background: linear-gradient(to right, #00467F 0%, #A5CC82 100%); }
+
+.slider-content .hand-writing{ margin-top: -10px; font-size: 6em; letter-spacing: 4px; font-family: Allura; }
+
+.slider-content .pre-heading{ margin-bottom: 10px; letter-spacing: 1px; }
+
+.slider-content .slider-btn{ margin-top: 30px; border-color: #fff; color: #fff; }
+
+
+/* ---------------------------------
+6. ICON BOX
+--------------------------------- */
+
+.icnbox{ padding: 80px 40px 60px; position: relative; border: 2px solid #ff6a00;
+	border-image: linear-gradient(to right, #00467F 0%, #A5CC82 100%); border-image-slice: 1; }
+
+.icnbox:after{ content:''; position:absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
+	transition: all .25s ease-in; opacity: 0; background: linear-gradient(15deg, #00467F 0%, #A5CC82 100%); }
+
+.icnbox.active,
+.icnbox.active .desc,
+.icnbox:hover,
+.icnbox:hover .desc{ color: #fff; }
+
+.icnbox.active:after,
+.icnbox:hover:after{ opacity: 1; }
+
+.icnbox.active .icon,
+.icnbox:hover .icon{ filter: brightness(0) invert(1); }
