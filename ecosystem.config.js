@@ -10,7 +10,7 @@ module.exports = {
       key: 'C://Users//simon//Documents//Programming//AWS//aws-pwm.pem',
       ref: 'origin/master',
       repo: 'https://github.com/peterwest-1/peterwestmedia',
-      path: '/home/ubuntu/peterwestmedia',
+      path: '/home/ubuntu/server',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
