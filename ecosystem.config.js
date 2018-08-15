@@ -6,11 +6,11 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-52-57-68-23.eu-central-1.compute.amazonaws.com',
-      key: 'C://Users//simon//Documents//Programming//AWS//aws-ubuntu-linux.pem',
+      host: 'ec2-18-196-182-115.eu-central-1.compute.amazonaws.com',
+      key: 'C://Users//simon//Documents//Programming//AWS//aws-pwm.pem',
       ref: 'origin/master',
       repo: 'https://github.com/peterwest-1/peterwestmedia',
-      path: '/home/ubuntu/server',
+      path: '/home/ubuntu/peterwestmedia',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
