@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-18-185-17-38.eu-central-1.compute.amazonaws.com',
+      host: 'ec2-54-93-249-34.eu-central-1.compute.amazonaws.com',
       key: 'C://Users//simon//Documents//Programming//Websites//Keys//AWS-Webserver-KepPair.pem',
       ref: 'origin/master',
       repo: 'https://github.com/peterwest-1/peterwestmedia',
